@@ -8,6 +8,11 @@
     <title>Articles</title>
 </head>
 <body>
-    <h1 class="text-2xl font-bold text-blue-600">記事一覧</h1>
+    <h1 class="text-3xl font-bold text-blue-600">記事一覧</h1>
+    <ul>
+        <li class="text-blue-500">あいうえお</li>
+        <li class="text-red-500">かきくけこ</li>
+    </ul>
+
 </body>
 </html>
