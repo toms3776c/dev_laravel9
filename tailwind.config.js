@@ -5,7 +5,11 @@ module.exports = {
     "./resources/**/*.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+        fontFamily: {
+            Notosans: ['Noto Sans JP'],
+        },
+    },
   },
   plugins: [
     require("daisyui")
