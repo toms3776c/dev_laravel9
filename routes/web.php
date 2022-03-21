@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ArticleController;
+use App\Http\Controllers\QiitaApiController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,3 +19,5 @@ Route::get('/', function () {
 });
 
 Route::get('/articles', [ArticleController::class, 'index']);
+Route::get('/qiitas', [QiitaApiController::class, 'index']);
+
